@@ -1,8 +1,12 @@
-# Petivo — Legal documents
+# Petivo — website and legal documents
 
-Public legal documents for the [Petivo](https://apps.apple.com) iOS app.
+Public pages for the [Petivo](https://randemix.github.io/Petivo/) iOS app:
 
-- [Privacy Policy](docs/legal/privacy-policy.md)
-- [Terms of Use](docs/legal/terms-of-use.md)
+- [Home](https://randemix.github.io/Petivo/)
+- [Privacy Policy](https://randemix.github.io/Petivo/privacy.html)
+- [Terms of Use](https://randemix.github.io/Petivo/terms.html)
+- [Support](https://randemix.github.io/Petivo/support.html)
+
+Markdown sources of the legal documents (English, Russian, Ukrainian) are in [docs/legal](docs/legal).
 
 Application source code is not published in this repository.

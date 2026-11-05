@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" class="nojs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Petivo — pet care organizer</title>
+<meta name="description" content="Petivo — pet care organizer: health records, reminders, feeding, vet visits.">
+<link rel="icon" href="favicon.png">
+<style>
+:root{color-scheme:light dark;--bg:#f6f4ff;--card:#fff;--text:#1d1b2e;--muted:#6c6a80;--accent:#6d4ff0;--accent2:#a78bfa;--line:#e6e2fa}
+@media(prefers-color-scheme:dark){:root{--bg:#12101c;--card:#1c1930;--text:#f2f0fb;--muted:#a09db8;--accent:#9d86ff;--accent2:#7c5cff;--line:#2b2745}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(1200px 500px at 50% -120px,rgba(124,92,255,.18),transparent),var(--bg);color:var(--text);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+main{max-width:780px;margin:0 auto;padding:28px 20px 72px}
+header.top{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+header.top img{width:56px;height:56px;border-radius:14px;box-shadow:0 6px 18px rgba(109,79,240,.25)}
+header.top .name{font-size:26px;font-weight:700;letter-spacing:-.01em}
+header.top .tag{color:var(--muted);font-size:14px}
+nav.pages{margin:18px 0 6px;display:flex;gap:6px;flex-wrap:wrap}
+nav.pages a{padding:7px 14px;border-radius:999px;text-decoration:none;color:var(--text);background:var(--card);border:1px solid var(--line);font-weight:600;font-size:14px}
+nav.pages a.on{background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;border-color:transparent}
+.lang{display:flex;gap:8px;margin:14px 0 4px}
+.lang button{cursor:pointer;border:1px solid var(--line);background:var(--card);color:var(--text);padding:6px 14px;border-radius:999px;font:600 14px inherit}
+.lang button.on{background:var(--accent);color:#fff;border-color:transparent}
+section.doc{display:none}section.doc.on,.nojs section.doc{display:block}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px 24px;margin:16px 0;box-shadow:0 8px 28px rgba(60,40,150,.06)}
+h1{font-size:30px;margin:8px 0 6px;letter-spacing:-.02em}h2{font-size:21px;margin:30px 0 8px}h3{font-size:17px;margin:20px 0 4px}
+p,li{color:var(--text)}.muted{color:var(--muted)}a{color:var(--accent)}
+ul{padding-left:22px}li{margin:4px 0}
+.hero{text-align:center;padding:30px 12px 6px}
+.hero h1{font-size:38px}.hero p{max-width:560px;margin:8px auto;color:var(--muted);font-size:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:14px;margin:18px 0}
+.grid .card{margin:0;padding:18px}.grid h3{margin:0 0 6px}
+.btn{display:inline-block;background:linear-gradient(135deg,var(--accent),var(--accent2));color:#fff;text-decoration:none;padding:12px 22px;border-radius:14px;font-weight:700}
+footer{margin-top:44px;color:var(--muted);font-size:14px;text-align:center}
+</style>
+</head>
+<body>
+<main>
+<header class="top"><img src="icon.png" alt="Petivo"><div><div class="name">Petivo</div><div class="tag">Pet care organizer for iPhone and iPad</div></div></header>
+<nav class="pages"><a href="index.html" class=on>Home / Главная</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a><a href="support.html">Support</a></nav>
+<div class="lang"><button data-lang="en">English</button><button data-lang="ru">Русский</button><button data-lang="uk">Українська</button></div>
+<section class="doc" data-lang="en"><div class="hero"><h1>Everything for your pet</h1><p>Health records, feeding, vet visits and pill reminders — tailored to your pet’s species and breed. Your data stays on your device and in your private iCloud.</p></div><div class="grid"><div class=card><h3>Health &amp; vaccines</h3><p class=muted>Vaccinations, medications with dose history, vet visits, weight trend, PDF for the vet.</p></div><div class=card><h3>Feeding on autopilot</h3><p class=muted>Set the schedule once — meals are counted for you. Food stock and reorder reminders.</p></div><div class=card><h3>Reminders you can act on</h3><p class=muted>A “Completed” button right on the notification, Siri shortcuts and Lock Screen widgets.</p></div><div class=card><h3>Emergency card</h3><p class=muted>A card and QR with the key info for a vet or a finder, plus a lost-pet poster.</p></div><div class=card><h3>Community &amp; reviews</h3><p class=muted>Ask other owners, rate vets and groomers on the map.</p></div><div class=card><h3>Private by design</h3><p class=muted>No ads, no analytics, no third-party SDKs. Sign in with Apple is optional.</p></div></div></section>
+<section class="doc" data-lang="ru"><div class="hero"><h1>Всё для вашего питомца</h1><p>Здоровье, кормление, визиты к ветеринару и напоминания о таблетках — с учётом вида и породы. Данные хранятся на вашем устройстве и в личном iCloud.</p></div><div class="grid"><div class=card><h3>Здоровье и прививки</h3><p class=muted>Прививки, лекарства с историей доз, визиты к ветеринару, динамика веса, PDF для врача.</p></div><div class=card><h3>Кормление на автопилоте</h3><p class=muted>Задайте расписание один раз — приёмы пищи считаются сами. Остаток корма и напоминание о заказе.</p></div><div class=card><h3>Напоминания с действием</h3><p class=muted>Кнопка «Выполнено» прямо в уведомлении, команды Siri и виджеты на экране блокировки.</p></div><div class=card><h3>Экстренная карточка</h3><p class=muted>Карточка и QR с главными данными для ветеринара или нашедшего, плюс объявление о пропаже.</p></div><div class=card><h3>Сообщество и отзывы</h3><p class=muted>Спросите других владельцев, оценивайте ветеринаров и грумеров на карте.</p></div><div class=card><h3>Приватность</h3><p class=muted>Без рекламы, аналитики и сторонних SDK. Вход через Apple необязателен.</p></div></div></section>
+<section class="doc" data-lang="uk"><div class="hero"><h1>Усе для вашого улюбленця</h1><p>Здоров’я, годування, візити до ветеринара й нагадування про таблетки — з урахуванням виду й породи. Дані зберігаються на вашому пристрої та в особистому iCloud.</p></div><div class="grid"><div class=card><h3>Здоров’я та щеплення</h3><p class=muted>Щеплення, ліки з історією доз, візити до ветеринара, динаміка ваги, PDF для лікаря.</p></div><div class=card><h3>Годування на автопілоті</h3><p class=muted>Задайте розклад один раз — прийоми їжі рахуються самі. Залишок корму й нагадування про замовлення.</p></div><div class=card><h3>Нагадування з дією</h3><p class=muted>Кнопка «Виконано» прямо в сповіщенні, команди Siri та віджети на екрані блокування.</p></div><div class=card><h3>Екстрена картка</h3><p class=muted>Картка й QR з головними даними для ветеринара чи того, хто знайшов, плюс оголошення про зникнення.</p></div><div class=card><h3>Спільнота та відгуки</h3><p class=muted>Запитайте інших власників, оцінюйте ветеринарів і грумерів на мапі.</p></div><div class=card><h3>Приватність</h3><p class=muted>Без реклами, аналітики та сторонніх SDK. Вхід через Apple необов’язковий.</p></div></div></section>
+<footer>© 2026 Maxim Lysokhmara · <a href="mailto:lysohmara.maxim@gmail.com">lysohmara.maxim@gmail.com</a></footer>
+</main>
+<script>document.documentElement.classList.remove('nojs');
+(function(){
+ var d=document.documentElement;d.classList.add('js');
+ var sup={en:1,ru:1,uk:1};
+ var want=(location.hash||'').replace('#','');
+ if(!sup[want]){var n=(navigator.language||'en').slice(0,2).toLowerCase();want=sup[n]?n:'en';}
+ function show(l){
+  document.querySelectorAll('section.doc').forEach(function(s){s.classList.toggle('on',s.dataset.lang===l);});
+  document.querySelectorAll('.lang button').forEach(function(b){b.classList.toggle('on',b.dataset.lang===l);});
+  document.documentElement.lang=l;
+ }
+ document.querySelectorAll('.lang button').forEach(function(b){b.addEventListener('click',function(){show(b.dataset.lang);history.replaceState(null,'','#'+b.dataset.lang);});});
+ show(want);
+})();
+</script>
+</body>
+</html>

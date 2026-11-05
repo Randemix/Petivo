@@ -1,24 +1,17 @@
 # App Store & in-app legal URLs
 
-**Repository:** https://github.com/Randemix/Petivo
+**Site (GitHub Pages):** https://randemix.github.io/Petivo/ — source in `Site/`, built by `python3 scripts/build_site.py` from `docs/legal/*.md`.
 
 ## Paste into App Store Connect
 
 | Field | URL |
 |-------|-----|
-| Privacy Policy | https://github.com/Randemix/Petivo/blob/main/docs/legal/privacy-policy.md |
-| Terms of Use (if required) | https://github.com/Randemix/Petivo/blob/main/docs/legal/terms-of-use.md |
+| Privacy Policy URL | https://randemix.github.io/Petivo/privacy.html |
+| Terms of Use (EULA, optional) | https://randemix.github.io/Petivo/terms.html |
+| Support URL | https://randemix.github.io/Petivo/support.html |
+| Marketing URL (optional) | https://randemix.github.io/Petivo/ |
 
-## In the app (source of truth in code)
+## In the app
 
-`Petivo/Core/AppConstants.swift` → `AppConstants.URLs.privacyPolicy` and `termsOfUse`
-
-## How users see documents
-
-| Place | Behaviour |
-|-------|-----------|
-| Settings → Privacy / Terms | Full text **inside the app** (bundled `Petivo/Legal/*.md`), works offline |
-| Button «Open in Safari» | Rendered markdown on GitHub (`/blob/main/...`) |
-| Paywall footer links | Same GitHub URLs (Apple-acceptable) |
-
-Legal text is **English**; UI note says the English version is binding.
+`Petivo/Core/AppConstants.swift` → `AppConstants.URLs.siteBase`, `privacyPolicy`, `termsOfUse`, `supportEmail`.
+Settings → Privacy / Terms show the full text inside the app (bundled `Petivo/Legal/*.md`, offline); "Open online" opens the site.
