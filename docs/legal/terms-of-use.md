@@ -1,7 +1,7 @@
 # Petivo Terms of Use
 
 **Last updated:** November 5, 2026  
-**Contact:** lysohmara.maxim@gmail.com  
+**Contact:** appsupport.studio@gmail.com  
 **Developer and data controller:** Maxim Lysokhmara, individual developer, Ukraine  
 
 These Terms govern your use of the Petivo mobile application (“App”, “Service”). By using Petivo, you agree to these Terms.
@@ -82,7 +82,7 @@ The App lets signed-in users rate and review places such as veterinary clinics a
 - you may edit or delete your review at any time; each person can post one review per place;
 - we may hide a review or place, or merge duplicate places, if it breaks these Terms or the Community rules.
 
-**Disputes.** If you represent a place and believe a review is false or unlawful, write to lysohmara.maxim@gmail.com with the place name and a description of the problem. We will review it within 3 business days and may hide the review while we investigate. If your review was removed and you believe that was a mistake, write to the same address.
+**Disputes.** If you represent a place and believe a review is false or unlawful, write to appsupport.studio@gmail.com with the place name and a description of the problem. We will review it within 3 business days and may hide the review while we investigate. If your review was removed and you believe that was a mistake, write to the same address.
 
 Reviews are the opinions of their authors, not of Petivo.
 
@@ -138,4 +138,4 @@ We may update these Terms. Material changes will be reflected by the “Last upd
 
 ## 14. Contact
 
-**Email:** lysohmara.maxim@gmail.com
+**Email:** appsupport.studio@gmail.com

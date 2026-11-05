@@ -1,7 +1,7 @@
 # Petivo Privacy Policy
 
 **Last updated:** November 5, 2026  
-**Contact:** lysohmara.maxim@gmail.com  
+**Contact:** appsupport.studio@gmail.com  
 **Developer and data controller:** Maxim Lysokhmara, individual developer, Ukraine  
 
 Petivo (“we”, “our”, “the app”) is a pet care organizer for **iPhone and iPad** (iOS / iPadOS 17+). This policy explains what data the app processes, where it goes, and what you can do about it.
@@ -106,9 +106,9 @@ We may disclose information if required by law.
 - **Blocking:** you can block a user so you no longer see their content. The block list is stored on your device.
 - **Filtering:** posts containing abusive language are rejected before they are published.
 - **Moderation:** reported content is reviewed, violating content is removed, and abusive accounts can be banned. We aim to act on reports within **72 hours**.
-- **Appeals:** if your content was removed or you were banned and you think it was a mistake, email **lysohmara.maxim@gmail.com**.
+- **Appeals:** if your content was removed or you were banned and you think it was a mistake, email **appsupport.studio@gmail.com**.
 
-To report content or a user directly, email **lysohmara.maxim@gmail.com**.
+To report content or a user directly, email **appsupport.studio@gmail.com**.
 
 ---
 
@@ -126,7 +126,7 @@ To report content or a user directly, email **lysohmara.maxim@gmail.com**.
 
 In **Settings** you can export your data, delete your account, turn off notification categories, disable Face ID locks, and manage subscriptions in the App Store.
 
-Depending on where you live (for example under the GDPR/UK GDPR or CCPA), you may have the right to access, correct, delete or port your data, to object to processing, and to complain to your local data protection authority. Write to **lysohmara.maxim@gmail.com** and we will respond within 30 days.
+Depending on where you live (for example under the GDPR/UK GDPR or CCPA), you may have the right to access, correct, delete or port your data, to object to processing, and to complain to your local data protection authority. Write to **appsupport.studio@gmail.com** and we will respond within 30 days.
 
 If you are in the EU or UK, we process your data to provide the service you asked for (performing the contract), to keep the Community safe (legitimate interests), and, for optional device permissions, with your consent, which you can withdraw in iOS Settings. In Settings you can also **import** a data file previously exported from Petivo; import only adds records that are not already on the device.
 
@@ -158,5 +158,5 @@ We may update this policy. The “Last updated” date will change. Continued us
 
 ## Contact
 
-**Email:** lysohmara.maxim@gmail.com  
+**Email:** appsupport.studio@gmail.com  
 **App:** Petivo → Settings → Support
